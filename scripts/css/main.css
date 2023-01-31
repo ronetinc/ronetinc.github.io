@@ -1,0 +1,135 @@
+body {
+	background-color: #000;
+}
+h1, h2, h3, h4, h5, h6, p {
+	color: #fff;
+	font-family: Arial;
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+ 	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.mainestmain {
+	width: 300px;
+	height: 400px;
+	border: none;
+}
+.topmainest {
+	width: 100%;
+}
+.topmainfirst {
+	width: 245px;
+	height: 245px;
+	border-radius: 15px;
+	background-color: #121212;
+	background-position: center center;
+}
+.topmainfirst h3 {
+	margin: 10px 10px 2px 10px;
+	color: #fff;
+}
+.topmainfirst p {
+	margin: 0 10px 10px 10px;
+	font-size: 14px;
+	color: #fff;
+}
+.profilepic {
+	border-radius: 50%;
+	width: 50px;
+	margin: 0 4px 0 4px;
+}
+.chevron {
+	margin: 10px 10px 10px 10px;
+	width: 30px;
+	float: right;
+}
+.topmainfirstinner {
+	width: 100%;
+}
+.sociallink {
+	width: 45px;
+	height: 45px;
+	background-color: #121212;
+	border-radius: 12px;
+	margin: 8.3px 0 8.3px 0;
+}
+.sociallink2 {
+	width: 45px;
+	height: 45px;
+	background-color: #121212;
+	border-radius: 12px;
+	margin: 5px 0 0 0;
+}
+.sociallink3 {
+	width: 45px;
+	height: 45px;
+	background-color: #121212;
+	border-radius: 12px;
+	margin: 0 0 5.5px 0;
+}
+.sociallink:hover, .sociallink2:hover, .sociallink3:hover {
+	background-color: #242424;
+	transition: all 0.15s ease-out;
+}
+.sociallinkimg {
+	width: 35px;
+	margin: 5px 5px 5px 5px;
+}
+.bottommainest {
+	width: 100%;
+}
+.minimenu {
+	height: 20px;
+	width: 100%;
+	background-color: #121212;
+	border-radius: 6px;
+	margin: 0 0 0 0;
+}
+.minimenu td {
+	width: 25%;
+}
+.minimenu a {
+	color: #868686;
+	font-family: arial;
+	font-size: 14px;
+	text-decoration: none;
+}
+.minimenu a:hover {
+	color: #fff;
+	transition: all 0.15s ease-out;
+}
+.nanolinkflag {
+	width: 16px;
+}
+.nanolink {
+	height: 20px;
+}
+.nanolink p {
+	margin: 0;
+	font-size: 14px;
+	color: #868686;
+}
+.nanolink p:hover {
+	color: #fff;
+	transition: all 0.15s ease-out;
+}
+.nanofooter {
+	margin-top: 5px;
+	height: 12px;
+	width: 100%;
+	background-color: #121212;
+	border-radius: 3px;
+}
+.nanofooter p {
+	font-size: 11px;
+	color: #868686;
+	margin: 0 0 0 0;
+}
+.nanofooter a {
+	color: #868686;
+	text-decoration: none;
+}
