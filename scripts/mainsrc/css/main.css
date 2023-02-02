@@ -5,6 +5,30 @@ h1, h2, h3, h4, h5, h6, p {
 	color: #fff;
 	font-family: Arial;
 }
+a {
+	color: #898989;
+	text-decoration-color: #fff;
+	font-family: arial;
+}
+a.a:hover, a.aligned:hover {
+	background-color: #363636;
+	color: #fff;
+	text-decoration: none;
+}
+a.aligned {
+	margin: 5px 5px 5px 5px;
+	font-size: 15px;
+}
+a.alignedwhite {
+	color: #fff;
+	margin: 5px 5px 5px 5px;
+	font-size: 15px;
+}
+a.alignedwhite:hover {
+	background-color: none;
+	color: #fff;
+	text-decoration: none;
+}
 .center {
 	position: absolute;
 	top: 50%;
@@ -90,7 +114,10 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 0 0 0 0;
 }
 .minimenu td {
-	width: 25%;
+	width: 23.75%;
+}
+.minimenu td.lang {
+	width: 1%;
 }
 .minimenu a {
 	color: #868686;
@@ -133,14 +160,41 @@ h1, h2, h3, h4, h5, h6, p {
 	color: #868686;
 	text-decoration: none;
 }
-/* thats another github project by jacoborus not mine */
-.nanobar {
-  width: 100%;
-  height: 4px;
+.logoh1 {
+	color: #868686;
+	font-family: monospace;
+	font-size: 14px;
+	margin: 0 0 0 12.5%;
 }
-.bar {
-  width: 2px;
-  height: 100%;
-  transition: height .3s;
-  background:#fff;
+.logoh1:hover {
+	color: #fff;
+	transition: all 0.15s ease-out;
+}
+.content {
+	background-color: #121212;
+	width: 100%;
+	border-radius: 6px;
+	margin-top: 5px;
+	height: 250px;
+}
+.content h1 {
+	margin: 5px 5px 5px 5px;
+	font-size: 22px;
+}
+.content p {
+	margin: 5px 5px 5px 5px;
+	font-size: 15.5px;
+	color: #999999;
+}
+ul {
+	color: #fff;
+	margin: 5px 5px 5px 5px;
+}
+li {
+	margin-bottom: 5px;
+}
+p.ps, p.ps a {
+	margin-top: 5%;
+	font-size: 12px;
+	font-family: cursive;
 }
