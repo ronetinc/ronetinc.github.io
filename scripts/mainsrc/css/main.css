@@ -7,7 +7,7 @@ h1, h2, h3, h4, h5, h6, p {
 }
 a {
 	color: #898989;
-	text-decoration-color: #fff;
+	text-decoration-color: #565656;
 	font-family: arial;
 }
 a.a:hover, a.aligned:hover {
@@ -196,5 +196,5 @@ li {
 p.ps, p.ps a {
 	margin-top: 5%;
 	font-size: 12px;
-	font-family: cursive;
+	font-family: monospace;
 }
