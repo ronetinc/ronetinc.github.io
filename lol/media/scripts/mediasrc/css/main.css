@@ -1,0 +1,285 @@
+body {
+	background-color: #000;
+}
+h1, h2, h3, h4, h5, h6, p {
+	color: #fff;
+	font-family: Arial;
+}
+a {
+	color: #898989;
+	text-decoration-color: #565656;
+	font-family: arial;
+}
+a.alignedstyled {
+	color: #898989;
+	text-decoration-color: #565656;
+	font-family: arial;
+	margin: 5px 5px 5px 5px;
+}
+a.a:hover, a.aligned:hover {
+	background-color: #363636;
+	color: #fff;
+	text-decoration: none;
+}
+a.aligned {
+	margin: 5px 5px 5px 5px;
+	font-size: 15px;
+}
+a.alignedwhite {
+	color: #fff;
+	margin: 5px 5px 5px 5px;
+	font-size: 15px;
+}
+a.alignedwhite:hover {
+	background-color: none;
+	color: #fff;
+	text-decoration: none;
+}
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-ms-transform: translateX(-50%) translateY(-50%);
+ 	-webkit-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+.mainestmain {
+	width: 300px;
+	height: 400px;
+	border: none;
+}
+.playlistmainestmain {
+	width: 400px;
+	height: 400px;
+	border: none;
+}
+.topmainest {
+	width: 100%;
+}
+.topmainfirst {
+	width: 245px;
+	height: 245px;
+	border-radius: 15px;
+	background-color: #121212;
+	background-position: center center;
+}
+.topmainfirst h3 {
+	margin: 10px 10px 2px 10px;
+	color: #fff;
+}
+.topmainfirst p {
+	margin: 0 10px 10px 10px;
+	font-size: 14px;
+	color: #fff;
+}
+.profilepic {
+	border-radius: 50%;
+	width: 50px;
+	margin: 0 4px 0 4px;
+}
+.chevron {
+	margin: 10px 10px 10px 10px;
+	width: 30px;
+	float: right;
+}
+.topmainfirstinner {
+	width: 100%;
+}
+.sociallink {
+	width: 45px;
+	height: 45px;
+	background-color: #121212;
+	border-radius: 12px;
+	margin: 8.3px 0 8.3px 0;
+}
+.sociallink2 {
+	width: 45px;
+	height: 45px;
+	background-color: #121212;
+	border-radius: 12px;
+	margin: 5px 0 0 0;
+}
+.sociallink3 {
+	width: 45px;
+	height: 45px;
+	background-color: #121212;
+	border-radius: 12px;
+	margin: 0 0 5.5px 0;
+}
+.sociallink:hover, .sociallink2:hover, .sociallink3:hover {
+	background-color: #242424;
+	transition: all 0.15s ease-out;
+}
+.sociallinkimg {
+	width: 35px;
+	margin: 5px 5px 5px 5px;
+}
+.bottommainest {
+	width: 100%;
+}
+.minimenu {
+	height: 20px;
+	width: 100%;
+	background-color: #121212;
+	border-radius: 6px;
+	margin: 0 0 0 0;
+}
+.minimenu td {
+	width: 23.75%;
+}
+.minimenu td.biggest {
+	width: 45%;
+}
+.minimenu td.lang {
+	width: 1%;
+}
+.minimenu a {
+	color: #868686;
+	font-family: arial;
+	font-size: 14px;
+	text-decoration: none;
+}
+.minimenu a:hover {
+	color: #fff;
+	transition: all 0.15s ease-out;
+}
+.nanolinkflag {
+	width: 16px;
+}
+.nanolink {
+	height: 20px;
+}
+.nanolink p {
+	margin: 0;
+	font-size: 14px;
+	color: #868686;
+}
+.nanolink p:hover {
+	color: #fff;
+	transition: all 0.15s ease-out;
+}
+.nanofooter {
+	margin-top: 5px;
+	height: 12px;
+	width: 100%;
+	background-color: #121212;
+	border-radius: 3px;
+}
+.nanofooter p {
+	font-size: 11px;
+	color: #868686;
+	margin: 0 0 0 0;
+}
+.nanofooter a {
+	color: #868686;
+	text-decoration: none;
+}
+.logoh1 {
+	color: #868686;
+	font-family: monospace;
+	font-size: 14px;
+	margin: 0 0 0 7.5px;
+}
+.redh1 {
+	color: #868686;
+	font-family: monospace;
+	font-size: 14px;
+	margin: 0 0 0 5px;
+}
+.logoh1:hover {
+	color: #fff;
+	transition: all 0.15s ease-out;
+}
+.content {
+	background-color: #121212;
+	width: 100%;
+	border-radius: 6px;
+	margin-top: 5px;
+	height: 250px;
+}
+.content h1 {
+	margin: 5px 5px 5px 5px;
+	font-size: 22px;
+}
+.content p {
+	margin: 5px 5px 5px 5px;
+	font-size: 15.5px;
+	color: #999999;
+}
+ul {
+	color: #fff;
+	margin: 5px 5px 5px 5px;
+}
+li {
+	margin-bottom: 5px;
+}
+p.ps, p.ps a {
+	margin-top: 5%;
+	font-size: 12px;
+	font-family: monospace;
+}
+.activelink {
+	font-size: 14px;
+	color: #fff;
+	margin: 0 0 0 0;
+}
+.medialink {
+	width: 265px;
+	height: 40px;
+	background-color: #242424;
+	margin-bottom: 5px;
+	border-radius: 12px;
+}
+.medialink img {
+	margin: 2.5px 2.5px 2.5px 2.5px;
+}
+a .medialink:hover {
+	background-color: #363636;
+}
+.medialink h3 {
+	margin: auto;
+}
+.videomain {
+	width: 100%;
+	margin: 0 4px 0 4px;
+}
+.videocont {
+	width: 45%;
+	border-radius: 6px;
+}
+.videocont:hover {
+	background-color: #363636;
+}
+.videocont img {
+	width: 110px;
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+.videocont h6 {
+	margin: 1px 0 1px 0;
+}
+.videocont p {
+	font-size: 10px;
+	margin: 1px 0 1px 0;
+}
+.videomain a {
+	text-decoration: none;
+}
+.pageslink, .pageslink a {
+	font-size: 12px;
+}
+.musiclink {
+	width: 265px;
+	height: 40px;
+	margin-bottom: 1px;
+	border-radius: 12px;
+}
+.musiclink img {
+	margin: 2px 2px 2px 2px;
+}
+a .musiclink:hover {
+	background-color: #363636;
+}
+.musiclink h4 {
+	margin: auto;
+}
